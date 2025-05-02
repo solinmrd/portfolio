@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solin Murat</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
+  <body>
+    <!-- -------------------------------------------DESKTOP NAVBAR START HERE------------------------------------------- -->
+    <nav id="desktop-navbar">
+      <!-- logo -->
+      <div class="nav-logo">Solin Murat</div>
+      <div>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- -------------------------------------------DESKTOP NAVBAR END HERE------------------------------------------- -->
+
+    <!-- -------------------------------------------MOBILE NAVBAR START HERE------------------------------------------- -->
+
+    <nav id="hamburger-navbar">
+      <div class="nav-logo">Solin Murat</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-list">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- -------------------------------------------MOBILE NAVBAR END HERE------------------------------------------- -->
+
+    <!-- -------------------------------------------PROFILE SECTION START HERE------------------------------------------- -->
+
+    <section id="profile">
+      <div class="section__pic-container profile-pic">
+        <img
+          src="assets/solin2024.jpg"
+          alt="Solin Murad Profile Picture"
+        />
+      </div>
+
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Solin Murat</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv/solinmurat-cv-en.pdf', '_blank')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div id="social-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon" taget="_blank"
+            onclick="location.href='https://www.linkedin.com/in/solin-muratt/'"
+          />
+
+          <img
+            src="assets/github.png"
+            alt="My Github Profile"
+            class="icon" target="_blank"
+            onclick="location.href='https://github.com/solinmrd'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------PROFILE SECTION END HERE------------------------------------------- -->
+
+    <!-- -------------------------------------------ABOUT SECTION START HERE------------------------------------------- -->
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="assets/solin2.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+
+
+          <div class="text-container">
+            <p>
+              Hello, I’m Solin! <br>
+              I’m a final-year Computer Programming student passionate about creating functional and visually engaging digital experiences.
+              I specialize in frontend development, building responsive and user-friendly websites with HTML, CSS, Bootstrap, JavaScript, and React. <br> <br>
+              
+              My journey began with a curiosity about how websites are built, which quickly grew into a passion. I enjoy crafting clean, modern interfaces where both design and user experience matter. <br> <br>
+              
+              Beyond coding, I’m inspired by design, photography, and technology. With every project, I aim to blend creativity and technical skill to deliver meaningful digital solutions. <br>
+              
+              Thanks for visiting my portfolio!
+            </p>
+          </div>
+
+          <div class="about-containers">
+            <div class="details-containers about-card">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+
+            <div class="details-containers about-card">
+              <img
+                src="./assets/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Associate Degree <br> Marmara Üniversitesi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <!-- -------------------------------------------ABOUT SECTION END HERE------------------------------------------- -->
+
+    <!-- -------------------------------------------EXPERIENCE SECTION START HERE------------------------------------------- -->
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Typescript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MSSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MYSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- -------------------------------------------EXPERIENCE SECTION END HERE------------------------------------------- -->
+
+    <!-- -------------------------------------------PROJECTS SECTION START HERE------------------------------------------- -->
+
+    <section id="projects">
+      <p class="section__text__p1">Check Out The </p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers color-container">
+            <div class="article-container">
+              <img
+                src="./assets/restaurant-reservation.jpg"
+                alt="Porject 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Restaurant Reservation Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/solinmrd/restaurant-reservation'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn dark-btn"
+                onclick="location.href='https://solinmrd.github.io/restaurant-reservation/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="details-containers color-container">
+            <div class="article-container">
+              <img
+                src="./assets/interpretership.jpg"
+                alt="Porject 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Interpretership Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/solinmrd/interpretership-website'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn dark-btn"
+                onclick="location.href='https://solinmrd.github.io/interpretership-website/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+
+
+          
+        </div>
+        
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- -------------------------------------------PROJECTS SECTION END HERE------------------------------------------- -->
+
+
+    <!-- -------------------------------------------CONTACT SECTION START HERE------------------------------------------- -->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <div class="contact-info-upper-container">
+
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:solinnmurad@gmail.com">solinnmurad@gmail.com</a></p>
+        </div>
+    
+
+  
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="Linkedin Icon" class="icon contact-icon">
+          <p><a href="https://www.linkedin.com/in/solin-muratt/" target="_blank">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------CONTACT SECTION END HERE------------------------------------------- -->
+    <!-- -------------------------------------------FOOTER SECTION START HERE------------------------------------------- -->
+     <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Solin Murat. All Rights Reserved.</p>
+     </footer>
+    <!-- -------------------------------------------FOOTER SECTION END HERE------------------------------------------- -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
